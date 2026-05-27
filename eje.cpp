@@ -28,7 +28,7 @@ int main() {
                     sumaNotas = nota;
                     cantidad++;
 
-                    if(nota >= 6) // tenia una coma en el if
+                    if(nota >= 6) // tenia una coma en el if que no hacia correr el progrma
                     {
                         aprobados++;
                     }
