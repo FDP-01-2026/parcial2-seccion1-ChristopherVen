@@ -15,21 +15,27 @@ switch (menu)
 {
 case 1:
 float numero;
+int e;
     cout<<"Ingrese numero"<<endl;
     cin>>numero;
-    cout<<"Equivale a:"<<numero*100<<" Centimetro"<<endl;
+    e=numero*100;
+    cout<<"Equivale a:"<<e<<" Centimetro"<<endl;
     break;
 case 2:
 float m;
+int a;
     cout<<"Ingrese numero"<<endl;
     cin>>m;
-    cout<<"Equivale a:"<<m*1000<<" metro"<<endl;
+    a=m*1000;
+    cout<<"Equivale a:"<<a<<" metro"<<endl;
     break;
 case 3:
 float k;
+int o;
     cout<<"Ingrese numero"<<endl;
     cin>>k;
-    cout<<"Equivale a:"<<k*0.453592<<" Kilogramo"<<endl;
+    o= k*0.453592;
+    cout<<"Equivale a:"<<o<<" Kilogramo"<<endl;
     break;
 case 4:
 float far;
@@ -39,9 +45,7 @@ int i;
     i=(far*9/5)+32;
     cout<<"Equivale a:"<< i<<" Fahrenheit"<<endl;
     break;
-default:
-cout<<"No exite"<<endl;
-    break;
+
 }
 
 
