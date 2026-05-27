@@ -32,9 +32,9 @@ float k;
     cout<<"Equivale a:"<<k*0.453592<<" Kilogramo"<<endl;
     break;
 case 4:
-float fa;
+float far;
     cout<<"Ingrese numero"<<endl;
-    cin>>fa;
+    cin>>far;
     cout<<"Equivale a:"<<(fa*9/5)+32<<" Fahrenheit"<<endl;
     break;
 default:
