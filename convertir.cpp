@@ -33,9 +33,11 @@ float k;
     break;
 case 4:
 float far;
+int i;
     cout<<"Ingrese numero"<<endl;
     cin>>far;
-    cout<<"Equivale a:"<<(fa*9/5)+32<<" Fahrenheit"<<endl;
+    i=(far*9/5)+32;
+    cout<<"Equivale a:"<< i<<" Fahrenheit"<<endl;
     break;
 default:
 cout<<"No exite"<<endl;
